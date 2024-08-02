@@ -22,6 +22,7 @@ import java.nio.file.Paths;
 @NoArgsConstructor
 @Data
 @RequestMapping("/files")
+@CrossOrigin("*")
 public class FileController {
 
     @Value("${file.upload-dir}")
